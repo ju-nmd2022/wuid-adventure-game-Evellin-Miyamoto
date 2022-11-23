@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="page2.css" />
+    <script src="page2.js" defer></script>
+    <title>Game</title>
+  </head>
+  <body>
+    <button class="back"><a href="index.html">Back</a></button>
+    <button class="next" id="next_room">Next room</button>
+    <!-- https://www.w3schools.com/tags/tag_area.asp -->
+    <img class="first-room" src="room.svg" alt="first room" usemap="#workmap" />
+    <map name="workmap">
+      <area
+        id="box_yellow"
+        shape="rect"
+        coords="40,80,90,120"
+        alt="Yellow box"
+      />
+      <area
+        id="box_drawer"
+        shape="rect"
+        coords="700,305,780,340"
+        alt="Drawer"
+      />
+    </map>
+    <div class="info">
+      <p id="info">Looks like your items are somewhere here...</p>
+      <p>
+        Key <img class="key" id="key" src="key.png" alt="key" />
+        <img id="star_key" src="star.gif" alt="" />
+      </p>
+      <p>
+        Diamond
+        <img class="diamond" id="diamond" src="diamond.png" alt="diamond" />
+        <img id="star_diamond" src="star.gif" alt="" />
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="page3.css" />
+    <script src="page3.js" defer></script>
+    <title>Game</title>
+  </head>
+  <body>
+    <button class="back"><a href="page2.html">Back</a></button>
+    <button class="next" id="next_Door">Open the door</button>
+    <img
+      class="livingroom"
+      src="living-room.svg"
+      alt="living room"
+      usemap="#workmap"
+    />
+    <map name="workmap">
+      <area
+        id="box_pillow"
+        shape="rect"
+        coords="680,320,720,380"
+        alt="box pillow"
+      />
+    </map>
+    <div class="info3">
+      <p id="info3">Maybe one of them is here...</p>
+      <p>
+        Key <img class="key" id="key" src="key.png" alt="key" />
+        <img id="star_key" src="star.gif" alt="" />
+      </p>
+      <p>
+        Diamond
+        <img class="diamond" id="diamond" src="diamond.png" alt="diamond" />
+        <img id="star_diamond" src="star.gif" alt="" />
+      </p>
+
+      <p>
+        Nuclear Fuel <img class="fuel" id="fuel" src="fuel.png" alt="fuel" />
+        <img id="star_fuel" src="star.gif" alt="" />
+      </p>
+    </div>
+  </body>
+</html>

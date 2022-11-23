@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="page4.css" />
+    <script src="page4.js" defer></script>
+    <title>Game</title>
+  </head>
+  <body>
+    <img class="door" src="door.svg" alt="door" />
+    <div class="info">
+      <p>
+        You're almost done. To open the door you will have to win against the
+        security system! You have to guess the number between 1 and 5. Good
+        luck!
+      </p>
+    </div>
+    <div class="title">Guess the number</div>
+
+    <div class="panel">
+      <div id="user_name" class="username">user</div>
+      <div id="comp_name" class="compname">comp</div>
+      <span id="user_score"></span>x<span id="comp_score"></span>
+    </div>
+    <div class="choices">
+      <input id="user_choice" type="number" ¨ min="1" max="5" />
+      <div id="comp_choice"></div>
+    </div>
+    <div class="result">
+      <div id="result"></div>
+    </div>
+    <img id="star" src="star.gif" alt="" />
+    <button id="play">Play</button>
+  </body>
+</html>

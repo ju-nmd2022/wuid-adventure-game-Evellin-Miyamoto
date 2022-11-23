@@ -1,0 +1,141 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  align-content: center;
+  font-size: 2em;
+  color: rgb(56, 109, 91);
+}
+.title {
+  grid-column: 3;
+  grid-row: 1;
+  font-size: 40px;
+  justify-self: center;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20px;
+}
+.door {
+  grid-column: 2;
+  grid-row: 1;
+  height: 800px;
+  justify-self: center;
+  height: 600px;
+}
+.info {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  align-self: center;
+}
+
+.panel {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  margin: 20px auto;
+  border: solid;
+  border-color: aquamarine;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  height: fit-content;
+  color: black;
+  font-size: 46px;
+  padding: 15px 20px;
+  position: relative;
+}
+.username {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 8px;
+  background: #64f9cf;
+  color: black;
+  font-size: 20px;
+  padding: 2px 10px;
+  position: absolute;
+  top: 25px;
+  right: 5px;
+}
+
+.compname {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 8px;
+  background: #64f9cf;
+  color: black;
+  font-size: 20px;
+  padding: 2px 10px;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+}
+
+.choices {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 200px;
+}
+
+#even,
+#odd {
+  border: solid;
+  border-color: rgba(127, 255, 212, 0.471);
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 5px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+#num0,
+#num1 {
+  border: solid;
+  border-color: rgba(127, 255, 212, 0.471);
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 5px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+#play {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  border: solid;
+  border-color: rgba(127, 255, 212, 0.471);
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 5px;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 150px;
+}
+
+.result {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  margin-top: 250px;
+  color: rgb(255, 94, 0);
+}
+
+#star {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  margin-top: 420px;
+}

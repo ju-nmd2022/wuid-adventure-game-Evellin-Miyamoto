@@ -1,0 +1,64 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.5em;
+  color: rgb(56, 109, 91);
+}
+.livingroom {
+  grid-column: 2;
+  grid-row: 1;
+  zoom: 75%;
+}
+.info3 {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(56, 109, 91);
+}
+button:hover {
+  background-color: rgb(126, 249, 208);
+  border-color: aquamarine;
+}
+.back {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100px;
+  /* height: 50px; */
+  justify-self: flex-end;
+  transition-duration: 0.4s;
+  border: 0em;
+}
+.next {
+  grid-column: 3;
+  grid-row: 1;
+  width: 100px;
+  /* height: 50px; */
+  justify-self: flex-start;
+  transition-duration: 0.4s;
+  border: 0em;
+}
+.fuel,
+.key,
+.diamond {
+  width: 40px;
+}
+#star_key,
+#star_diamond,
+#star_fuel {
+  width: 30px;
+}
+#box_pillow:hover {
+  cursor: pointer;
+}
+#info3 {
+  font-size: 1.5em;
+  margin-top: 0.3em;
+}

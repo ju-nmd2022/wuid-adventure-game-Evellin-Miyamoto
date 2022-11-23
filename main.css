@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  color: rgb(56, 109, 91);
+}
+p {
+  margin: auto 20rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(56, 109, 91);
+}
+img {
+  height: 500px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10%;
+}
+
+button:hover {
+  background-color: rgb(126, 249, 208);
+  border-color: aquamarine;
+}
