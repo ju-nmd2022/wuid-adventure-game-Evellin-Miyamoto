@@ -79,7 +79,7 @@ window.addEventListener("load", function () {
     }
   });
 
-  //local storage
+  //local storage followed from Garrit's class
   readFromLocalStorage();
   if (box_yellowIsOpen) {
     key.style.visibility = "visible";
